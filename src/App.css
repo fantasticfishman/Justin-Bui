@@ -1,0 +1,70 @@
+:root {
+  --remblue: #0496eb;
+}
+.nav {
+  background-color: var(--remblue);
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  height: 80px;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.title {
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.nav-logo {
+  height: 80px;
+  width: 80px;
+}
+
+.nav-logo:hover {
+  cursor: pointer;
+}
+
+.nav .nav-content {
+  font-family: 'Arial';
+  max-width: 900px;
+  padding: 0rem 3rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.nav-item {
+  display: inline;
+  margin-left: 2rem;
+  transition: color 0.5s;
+  color: rgb(255, 255, 255);
+}
+
+/* .nav-item > .active {
+  transition: color 0.5s;
+  color: rgb(253, 117, 253);
+} */
+
+.nav-item:hover {
+  transition: color 0.5s;
+  color: rgb(253, 117, 253);
+  cursor: pointer;
+}
+
+.section {
+  margin:auto;
+  height: 800px;
+  /* width: 800px; */
+}
+
+.section-dark {
+  background: #333;
+  color: white;
+}
+
+.section-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+}
