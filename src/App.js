@@ -1,7 +1,26 @@
 import React, { Component } from "react";
-import "./App.css";
 import Navbar from "./Components/Navbar";
 import Section from "./Components/Section";
+import ImageGallery from "react-image-gallery";
+import { ParallaxProvider } from 'react-scroll-parallax';
+import slide from "./carouselpics/slide.png";
+import '../node_modules/react-image-gallery/styles/css/image-gallery.css';
+import "./App.css";
+
+const images = [
+  {
+    original: "https://picsum.photos/id/1018/1000/600/",
+    thumbnail: "https://picsum.photos/id/1018/250/150/",
+  },
+  {
+    original: "https://picsum.photos/id/1015/1000/600/",
+    thumbnail: "https://picsum.photos/id/1015/250/150/",
+  },
+  {
+    original: "https://picsum.photos/id/1019/1000/600/",
+    thumbnail: "https://picsum.photos/id/1019/250/150/",
+  },
+];
 class App extends Component {
   render() {
     return (
@@ -12,7 +31,9 @@ class App extends Component {
           subtitle="cringe"
           dark={true}
           id="section1"
+          carousel={<ImageGallery items={images} />}
         />
+        {/* <ImageGallery items={images} /> */}
         <Section
           title="Section 2"
           subtitle="cringe"
