@@ -1,5 +1,7 @@
 :root {
   --remblue: #0496eb;
+  --coolgrey: #333;
+  background-color: var(--coolgrey);
 }
 .nav {
   background-color: var(--remblue);
@@ -20,12 +22,48 @@
   width: 80px;
 }
 
+.titlecard {
+  color: var(--remblue);
+  text-align: center;
+}
+
+.stars {
+  position:sticky;
+  /* top: 500px;
+  left: 100px; */
+}
+
+#star1{
+  height: 40px;
+  width: 40px;
+}
+
+#star2 {
+  position: sticky;
+  right: 200px;
+  bottom: 300rem;
+  width: 40px;
+}
+
+#star3 {
+  position: sticky;
+  left: 20px;
+  top: 300rem;
+  width: 40px;
+}
+
+#star4 {
+  position: sticky;
+  right: 200px;
+  top: 900rem;
+  width: 40px;
+}
 .nav-logo:hover {
   cursor: pointer;
 }
 
 .nav .nav-content {
-  font-family: 'Arial';
+  font-family: "Arial";
   max-width: 900px;
   padding: 0rem 3rem;
   margin: 0 auto;
@@ -54,13 +92,13 @@
 }
 
 .section {
-  margin:auto;
+  margin: auto;
   height: 800px;
   /* width: 800px; */
 }
 
 .section-dark {
-  background: #333;
+  background: var(--coolgrey);
   color: white;
 }
 

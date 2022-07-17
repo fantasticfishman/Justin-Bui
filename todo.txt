@@ -1,2 +1,1 @@
-take out react router dom
-fix navbarb, breaks thing, integrate it with scroller
+fix star, titlecard extends page to right
