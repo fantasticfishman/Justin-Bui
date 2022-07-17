@@ -37,7 +37,7 @@ class App extends Component {
             carousel={<ImageGallery items={images} />}
           />
           <div className="stars">
-            <Parallax>
+            <Parallax offset={1.5}>
               <img id="star1" alt="a funny star" src={star} />
             </Parallax>
             {/* <Parallax rotate={[-500,500]} translateY={-800} >
@@ -50,7 +50,7 @@ class App extends Component {
               <img id = "star4" alt="a funny star" src={star}/>
           </Parallax> */}
           </div>
-          <Parallax translateX={[-20,20]}>
+          <Parallax translateX={[-20, 0]} scale={[, 1.5]} opacity={[0.45, 1]}>
             <div className="titlecard">
               <TitleCard title="AMONG US!!!!" />
             </div>

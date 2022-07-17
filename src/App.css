@@ -28,9 +28,10 @@
 }
 
 .stars {
+  opacity: .6;
   position:sticky;
-  /* top: 500px;
-  left: 100px; */
+  margin-left: 100px;
+  top: 200px;
 }
 
 #star1{
