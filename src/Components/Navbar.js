@@ -26,7 +26,7 @@ export default class Navbar extends Component {
                 to="section1"
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={-170}
                 duration={500}
               >
                 About
@@ -38,7 +38,7 @@ export default class Navbar extends Component {
                 to="section2"
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={-170}
                 duration={500}
               >
                 Development
@@ -50,7 +50,7 @@ export default class Navbar extends Component {
                 to="section3"
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={-170}
                 duration={500}
               >
                 Leadership
@@ -62,7 +62,7 @@ export default class Navbar extends Component {
                 to="section4"
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={-170}
                 duration={500}
               >
                 Research
@@ -74,7 +74,7 @@ export default class Navbar extends Component {
                 to="section5"
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={-170}
                 duration={500}
               >
                 Contact
