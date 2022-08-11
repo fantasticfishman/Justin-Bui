@@ -1,7 +1,7 @@
 :root {
   --remblue: #0496eb;
   --coolgrey: #333;
-  background-color: var(--coolgrey);
+  background-color: #333;
 }
 .nav {
   background-color: var(--remblue);
