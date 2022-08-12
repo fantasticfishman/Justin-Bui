@@ -15,8 +15,8 @@ class App extends Component {
     return (
       <ParallaxProvider>
         <div className="App">
-          <div className="titlepage">
-            <Parallax opacity={[2, 0]}>
+          <Parallax opacity={[2.5, -1]}>
+            <div className="titlepage">
               <h1>
                 <Wave
                   text="Justin Bui"
@@ -27,8 +27,8 @@ class App extends Component {
               </h1>
               <h2>Developer. Designer. Leader.</h2>
               <h3>Coming soon (hopefully) to a workplace near you.</h3>
-            </Parallax>
-          </div>
+            </div>
+          </Parallax>
           <div className="about">
             <Parallax opacity={[0.2, 2.5]}>
               <img src={Rem} alt="the best waifu"></img>
@@ -117,7 +117,7 @@ class App extends Component {
                   </ImageEvent>
                   <ImageEvent
                     date="2022-Projects"
-                    text="I created a Discord Bot using the Discord.js API, gaining experience with more advanced Javascript."
+                    text="I created a Discord Bot using the Discord.js API, gaining experience with advanced Javascript, such as callbacks."
                   >
                     <div>
                       <UrlButton
@@ -137,16 +137,16 @@ class App extends Component {
             </div>
           </Parallax>
           <hr></hr>
-          <Parallax opacity={[0, 3]}>
-            <div className="contact">
+          <div className="contact">
+            <Parallax opacity={[0, 3]}>
               <h1>Need something done?</h1>
               <div className="icons">
                 <Envelope size={96} />
                 <Github size={96} />
                 <Linkedin size={96} />
               </div>
-            </div>
-          </Parallax>
+            </Parallax>
+          </div>
         </div>
       </ParallaxProvider>
     );
