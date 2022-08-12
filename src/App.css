@@ -69,12 +69,13 @@ h1 {
     justify-content: space-between;
     max-width: 40vw;
     margin: 0 auto;
-    padding: 10vh
+    padding-top: 10vh;
+    padding-bottom: 1vh;
 }
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  font-family: -apple-system, BlinkMcSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;

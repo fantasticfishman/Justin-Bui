@@ -88,7 +88,7 @@ class App extends Component {
                     "in special recognition of outstanding achievements and exceptional leadership ability.'
                   />
                   <ImageEvent
-                    date="Fall 2021-Projects"
+                    date="2021-Projects"
                     text="With a team, I created an exercise tracker app using the MERN stack, gaining frontend experience with React, as well as backend experience with MongoDB.
                     I also gained experience with working with deadlines and collaborating with a development team. Unfortunately the database is down so I don't have a working demo,
                     but the code is here."
@@ -117,8 +117,8 @@ class App extends Component {
                   </ImageEvent>
                   <ImageEvent
                     date="2022-Projects"
-                    text='I created a Discord Bot using the Discord.js API, gaining experience with advanced Javascript, such as callbacks.'
-                    >
+                    text="I created a Discord Bot using the Discord.js API, gaining experience with more advanced Javascript."
+                  >
                     <div>
                       <UrlButton
                         href="https://github.com/fantasticfishman/rembot"
@@ -130,23 +130,23 @@ class App extends Component {
                   </ImageEvent>
                   <ImageEvent
                     date="2022-Research"
-                    text="This year, I'll be conducting guided research with a UCSD professor."
+                    text="This year, I'll be doing research with a UCSD professor."
                   />
                 </Events>
               </Timeline>
             </div>
           </Parallax>
           <hr></hr>
-          <div className="contact">
-            <h1>
-                Need something done?
-            </h1>
-            <div className="icons">
-                <Envelope size={96}/>
-                <Github size={96}/>
-                <Linkedin size={96}/>
+          <Parallax opacity={[0, 3]}>
+            <div className="contact">
+              <h1>Need something done?</h1>
+              <div className="icons">
+                <Envelope size={96} />
+                <Github size={96} />
+                <Linkedin size={96} />
+              </div>
             </div>
-          </div>
+          </Parallax>
         </div>
       </ParallaxProvider>
     );
