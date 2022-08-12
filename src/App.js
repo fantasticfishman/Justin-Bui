@@ -117,7 +117,7 @@ class App extends Component {
                   </ImageEvent>
                   <ImageEvent
                     date="2022-Projects"
-                    text="I created a Discord Bot using the Discord.js API, gaining experience with advanced Javascript, such as callbacks."
+                    text="I created a Discord Bot using the Discord.js API, gaining more experience with Javascript."
                   >
                     <div>
                       <UrlButton
