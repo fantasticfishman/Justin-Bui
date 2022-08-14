@@ -11,6 +11,15 @@ import { Linkedin } from "react-bootstrap-icons";
 import "./App.css";
 
 class App extends Component {
+  handleEnvelope = () => {
+    window.open("mailto:justin7354@gmail.com")
+  };
+  handleGit = () => {
+    window.open("https://github.com/fantasticfishman")
+  };
+  handleLinkedin = () => {
+    window.open("https://www.linkedin.com/in/justin-bui-22b385248?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BYOZbSZWRSWqbjgBDX0wk3g%3D%3D")
+  };
   render() {
     return (
       <ParallaxProvider>
@@ -117,7 +126,9 @@ class App extends Component {
                   </ImageEvent>
                   <ImageEvent
                     date="2022-Projects"
-                    text="I created a Discord Bot using the Discord.js API, gaining more experience with Javascript."
+                    text='I created a Discord Bot using the Discord.js API for a server of friends. It has functions like a fortune teller, randomly
+                    responding to certain messages with custom responses, and a "translator" that changes a message by replacing and editing strings based on their parts of speech,
+                    similar to owoify and uwuify functions elsewhere. '
                   >
                     <div>
                       <UrlButton
@@ -130,7 +141,7 @@ class App extends Component {
                   </ImageEvent>
                   <ImageEvent
                     date="2022-Research"
-                    text="This year, I'll be doing research with a UCSD professor."
+                    text="This year, I'll be doing a research project with a UCSD professor as part of the Early Research Scholars Program."
                   />
                 </Events>
               </Timeline>
@@ -141,9 +152,21 @@ class App extends Component {
             <Parallax opacity={[0, 3]}>
               <h1>Need something done?</h1>
               <div className="icons">
-                <Envelope size={96} />
-                <Github size={96} />
-                <Linkedin size={96} />
+                <Envelope
+                  id="envelope"
+                  onClick={this.handleEnvelope}
+                  size={"8vw"}
+                />
+                <Github
+                  id="git"
+                  onClick={this.handleGit}
+                  size={"8vw"}
+                />
+                <Linkedin
+                  id="linkedin"
+                  onClick={this.handleLinkedin}
+                  size={"8vw"}
+                />
               </div>
             </Parallax>
           </div>
