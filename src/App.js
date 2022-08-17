@@ -18,7 +18,7 @@ class App extends Component {
     window.open("https://github.com/fantasticfishman")
   };
   handleLinkedin = () => {
-    window.open("https://www.linkedin.com/in/justin-bui-22b385248?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BYOZbSZWRSWqbjgBDX0wk3g%3D%3D")
+    window.open("https://www.linkedin.com/in/justin-v-bui")
   };
   render() {
     return (
