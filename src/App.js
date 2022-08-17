@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { ParallaxProvider } from "react-scroll-parallax";
 import { Parallax } from "react-scroll-parallax";
 import Rem from "./images/test.JPG";
+import Me from "./images/me.JPG"
 import { Wave } from "react-animated-text";
 import { Timeline, Events, UrlButton, ImageEvent } from "@merc/react-timeline";
 import staff from "./images/staff.jpg";
@@ -40,7 +41,7 @@ class App extends Component {
           </Parallax>
           <div className="about">
             <Parallax opacity={[0.2, 2.5]}>
-              <img src={Rem} alt="the best waifu"></img>
+              <img src={Me} alt="A picture of me"></img>
               <h1>
                 Hi. I'm Justin, a student studying Computer Science at
                 University of California, San Diego. I have experience with
