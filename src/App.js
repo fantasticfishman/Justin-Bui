@@ -46,7 +46,7 @@ class App extends Component {
                 Hi. I'm Justin, a student studying Computer Science at
                 University of California, San Diego. I have experience with
                 Java, JavaScript, Python, HTML, CSS, and React, along with
-                leadership and organizational experience.
+                leadership, organizational, and design experience.
               </h1>
             </Parallax>
           </div>
@@ -100,8 +100,7 @@ class App extends Component {
                   <ImageEvent
                     date="2021-Projects"
                     text="With a team, I created an exercise tracker app using the MERN stack, gaining frontend experience with React, as well as backend experience with MongoDB.
-                    I also gained experience with working with deadlines and collaborating with a development team. Unfortunately the database is down so I don't have a working demo,
-                    but the code is here."
+                    I also gained experience with working with deadlines and collaborating with a development team."
                   >
                     <div>
                       <UrlButton
