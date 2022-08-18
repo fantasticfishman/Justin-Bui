@@ -3,7 +3,7 @@ import { ParallaxProvider } from "react-scroll-parallax";
 import { Parallax } from "react-scroll-parallax";
 import Me from "./images/me.JPG"
 import { Wave } from "react-animated-text";
-import { Timeline, Events, UrlButton, ImageEvent } from "@merc/react-timeline";
+import { Timeline, Events, UrlButton, ImageEvent, themes } from "@merc/react-timeline";
 import staff from "./images/staff.jpg";
 import { Github } from "react-bootstrap-icons";
 import { Envelope } from "react-bootstrap-icons";
@@ -54,7 +54,7 @@ class App extends Component {
           </Parallax>
           <Parallax opacity={[0, 3]}>
             <div className="timeline">
-              <Timeline>
+              <Timeline theme={themes.roli}>
                 <Events>
                   <ImageEvent
                     date="2018-2020-WebDev"
