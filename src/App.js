@@ -168,6 +168,7 @@ class App extends Component {
                 />
               </div>
             </Parallax>
+            <p>This website was created using React, and the code can be found <a href= "https://github.com/fantasticfishman/Justin-Bui"> here.</a> </p>
           </div>
         </div>
       </ParallaxProvider>

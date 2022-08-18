@@ -48,6 +48,10 @@ h1 {
   background-repeat: repeat-y;
 }
 
+.about p{
+  text-align: center;
+}
+
 .about img {
   margin-left: 15vw;
   max-width: 25vw;
