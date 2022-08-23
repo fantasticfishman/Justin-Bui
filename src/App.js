@@ -1,9 +1,15 @@
 import React, { Component } from "react";
 import { ParallaxProvider } from "react-scroll-parallax";
 import { Parallax } from "react-scroll-parallax";
-import Me from "./images/me.JPG"
+import Me from "./images/me.JPG";
 import { Wave } from "react-animated-text";
-import { Timeline, Events, UrlButton, ImageEvent, themes } from "@merc/react-timeline";
+import {
+  Timeline,
+  Events,
+  UrlButton,
+  ImageEvent,
+  themes,
+} from "@merc/react-timeline";
 import staff from "./images/staff.jpg";
 import { Github } from "react-bootstrap-icons";
 import { Envelope } from "react-bootstrap-icons";
@@ -12,13 +18,13 @@ import "./App.css";
 
 class App extends Component {
   handleEnvelope = () => {
-    window.open("mailto:justin7354@gmail.com")
+    window.open("mailto:justin7354@gmail.com");
   };
   handleGit = () => {
-    window.open("https://github.com/fantasticfishman")
+    window.open("https://github.com/fantasticfishman");
   };
   handleLinkedin = () => {
-    window.open("https://www.linkedin.com/in/justin-v-bui")
+    window.open("https://www.linkedin.com/in/justin-v-bui");
   };
   render() {
     return (
@@ -44,7 +50,7 @@ class App extends Component {
               <h1>
                 Hi. I'm Justin, a student studying Computer Science at
                 University of California, San Diego. I have experience with
-                Java, JavaScript, Python, HTML, CSS, and React, along with
+                Java, Python, and Web Development, along with
                 leadership, organizational, and design experience.
               </h1>
             </Parallax>
@@ -57,7 +63,7 @@ class App extends Component {
               <Timeline theme={themes.roli}>
                 <Events>
                   <ImageEvent
-                    date="2018-2020-WebDev"
+                    date="2018-2020-Projects/Leadership"
                     text="I was in charge of building and maintaining my organization's website, gaining experience with HTML, CSS, Github Pages, as well as working with a team"
                   >
                     <div>
@@ -94,11 +100,13 @@ class App extends Component {
                     date="2021-Leadership"
                     text='For my efforts that year, 
                     I recieved the Veterans of Foreign Wars Citation and Medal Award, 
-                    "in special recognition of outstanding achievements and exceptional leadership ability.'
+                    "in special recognition of outstanding achievements and exceptional leadership ability, as well as the AFJROTC Captain Kenneth R. Cherry Scholarship Award
+                    , $1000 awarded for a "desire to serve", "integrity and excellence", and "strong leadership skills".'
                   />
                   <ImageEvent
                     date="2021-Projects"
-                    text="With a team, I created an exercise tracker app using the MERN stack, gaining frontend experience with React, as well as backend experience with MongoDB.
+                    text="With a team, I created an exercise tracker app using the MERN stack, gaining experience with React, Express, MongoDB, and HTTP requests that connect those. 
+                    We also implemented a login system that allows users to create accounts, and logging in authenticates them with a JSON web token so they can edit their info securely.
                     I also gained experience with working with deadlines and collaborating with a development team."
                   >
                     <div>
@@ -112,7 +120,8 @@ class App extends Component {
                   </ImageEvent>
                   <ImageEvent
                     date="2022-Projects"
-                    text="I created a wallpaper scraper using Python, it takes user input and automatically batch downloads wallpapers for them based on their search term."
+                    text="I created a wallpaper scraper using Python, it takes a search term, pulls HTML elements from wallpaper website page using BeautifulSoup,
+                    searches for image links, and batch downloads wallpapers for you. It also has some quality of life usage like controlling search page, creating organized folders for downloads, and avoiding duplicate filenames/directories."
                   >
                     <div>
                       <UrlButton
@@ -128,6 +137,19 @@ class App extends Component {
                     text='I created a Discord Bot using the Discord.js API for a server of friends. It has functions like a fortune teller, randomly
                     responding to certain messages with custom responses, and a "translator" that changes a message by replacing and editing strings based on their parts of speech,
                     similar to owoify and uwuify functions elsewhere. '
+                  >
+                    <div>
+                      <UrlButton
+                        href="https://github.com/fantasticfishman/rembot"
+                        target="_blank"
+                      >
+                        Discord Bot
+                      </UrlButton>
+                    </div>
+                  </ImageEvent>
+                  <ImageEvent
+                    date="2022-Projects"
+                    text='I created a mpbile app using React Native that helps users keep focused on their tasks by building a "streak" when they complete tasks before the due date. '
                   >
                     <div>
                       <UrlButton
@@ -156,11 +178,7 @@ class App extends Component {
                   onClick={this.handleEnvelope}
                   size={"8vw"}
                 />
-                <Github
-                  id="git"
-                  onClick={this.handleGit}
-                  size={"8vw"}
-                />
+                <Github id="git" onClick={this.handleGit} size={"8vw"} />
                 <Linkedin
                   id="linkedin"
                   onClick={this.handleLinkedin}
@@ -168,7 +186,13 @@ class App extends Component {
                 />
               </div>
             </Parallax>
-            <p>This website was created using React, and the code can be found <a href= "https://github.com/fantasticfishman/Justin-Bui"> here.</a> </p>
+            <p>
+              This website was created using React, and the code can be found{" "}
+              <a href="https://github.com/fantasticfishman/Justin-Bui">
+                {" "}
+                here.
+              </a>{" "}
+            </p>
           </div>
         </div>
       </ParallaxProvider>
