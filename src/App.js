@@ -9,6 +9,7 @@ import {
   UrlButton,
   ImageEvent,
   themes,
+  YouTubeEvent
 } from "@merc/react-timeline";
 import staff from "./images/staff.jpg";
 import { Github } from "react-bootstrap-icons";
@@ -143,23 +144,24 @@ class App extends Component {
                         href="https://github.com/fantasticfishman/rembot"
                         target="_blank"
                       >
-                        Discord Bot
+                        Discord Bot Repo
                       </UrlButton>
                     </div>
                   </ImageEvent>
-                  <ImageEvent
+                  <YouTubeEvent
                     date="2022-Projects"
-                    text='I created a mpbile app using React Native that helps users keep focused on their tasks by building a "streak" when they complete tasks before the due date. '
+                    text='I created a mobile app using React Native that helps users keep focused on their tasks by building a "streak" when they complete tasks before the due date. '
+                    id="L7HBrO3VugI"
                   >
                     <div>
                       <UrlButton
-                        href="https://github.com/fantasticfishman/rembot"
+                        href="https://github.com/fantasticfishman/todolist"
                         target="_blank"
                       >
-                        Discord Bot
+                        Mobile App Repo
                       </UrlButton>
                     </div>
-                  </ImageEvent>
+                  </YouTubeEvent>
                   <ImageEvent
                     date="2022-Research"
                     text="This year, I'll be doing a research project with a UCSD professor as part of the Early Research Scholars Program."
