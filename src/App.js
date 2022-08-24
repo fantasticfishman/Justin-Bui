@@ -65,7 +65,7 @@ class App extends Component {
                 <Events>
                   <ImageEvent
                     date="2018-2020-Projects/Leadership"
-                    text="I was in charge of building and maintaining my organization's website, gaining experience with HTML, CSS, Github Pages, as well as working with a team"
+                    text="I was in charge of building and maintaining my organization's website, gaining experience with HTML, CSS, Github Pages, as well as working with a team."
                   >
                     <div>
                       <UrlButton href="https://ca-935th.com/" target="_blank">
@@ -76,8 +76,8 @@ class App extends Component {
                   <ImageEvent
                     date="2021-Leadership"
                     text="I was selected to lead a team to document/advertise group activities for a club of 160+ students.
-                    I organized the capturing of events through photo and video footage, and publicizing/advertising our club to outside organizations.
-                    worked on, led, organized the creation of monthly newsletters/videos, as well as a website/social media.
+                    I organized the capturing of events through photo and video footage, and publicizing/advertising our club to outside organizations. I also
+                    organized the creation of monthly newsletters/videos, as well as a website and social media accounts.
                     "
                   >
                     <div>
@@ -100,9 +100,9 @@ class App extends Component {
                   <ImageEvent
                     date="2021-Leadership"
                     text='For my efforts that year, 
-                    I recieved the Veterans of Foreign Wars Citation and Medal Award, 
-                    "in special recognition of outstanding achievements and exceptional leadership ability, as well as the AFJROTC Captain Kenneth R. Cherry Scholarship Award
-                    , $1000 awarded for a "desire to serve", "integrity and excellence", and "strong leadership skills".'
+                    I recieved the AFJROTC Captain Kenneth R. Cherry Scholarship Award
+                    of $1000 awarded for a "desire to serve", "integrity and excellence", and "strong leadership skills", as well as the Veterans of Foreign Wars Citation and Medal Award, 
+                    "in special recognition of outstanding achievements and exceptional leadership ability".'
                   />
                   <ImageEvent
                     date="2021-Projects"
@@ -121,7 +121,7 @@ class App extends Component {
                   </ImageEvent>
                   <ImageEvent
                     date="2022-Projects"
-                    text="I created a wallpaper scraper using Python, it takes a search term, pulls HTML elements from wallpaper website page using BeautifulSoup,
+                    text="I created a wallpaper downloader using Python, it takes a search term, pulls HTML elements from wallpaper website page using BeautifulSoup,
                     searches for image links, and batch downloads wallpapers for you. It also has some quality of life usage like controlling search page, creating organized folders for downloads, and avoiding duplicate filenames/directories."
                   >
                     <div>
