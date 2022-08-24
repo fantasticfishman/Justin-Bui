@@ -41,7 +41,7 @@ class App extends Component {
                   speed="10"
                 />
               </h1>
-              <h2>Developer. Designer. Leader.</h2>
+              <h2>Developer. Team Player. Leader.</h2>
               <h3>Coming soon (hopefully) to a workplace near you.</h3>
             </div>
           </Parallax>
@@ -52,7 +52,7 @@ class App extends Component {
                 Hi. I'm Justin, a student studying Computer Science at
                 University of California, San Diego. I have experience with
                 Java, Python, and Web Development, along with
-                leadership, organizational, and design experience.
+                leadership and organizational experience.
               </h1>
             </Parallax>
           </div>
