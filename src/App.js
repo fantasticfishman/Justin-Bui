@@ -133,21 +133,6 @@ class App extends Component {
                       </UrlButton>
                     </div>
                   </ImageEvent>
-                  <ImageEvent
-                    date="2022-Projects"
-                    text='I created a Discord Bot using the Discord.js API for a server of friends. It has functions like a fortune teller, randomly
-                    responding to certain messages with custom responses, and a "translator" that changes a message by replacing and editing strings based on their parts of speech,
-                    similar to owoify and uwuify functions elsewhere. '
-                  >
-                    <div>
-                      <UrlButton
-                        href="https://github.com/fantasticfishman/rembot"
-                        target="_blank"
-                      >
-                        Discord Bot Repo
-                      </UrlButton>
-                    </div>
-                  </ImageEvent>
                   <YouTubeEvent
                     date="2022-Projects"
                     text='I created a mobile app using React Native that helps users keep focused on their tasks by building a "streak" when they complete tasks before the due date. '
