@@ -148,8 +148,15 @@ class App extends Component {
                     </div>
                   </YouTubeEvent>
                   <ImageEvent
+                    date="2022-Leadership"
+                    text="This year, I'll be planning and conductions socials, presentations, and leadership workshops
+                    for the UCSD Computer Science and Engineering Department's student engagement program aimed at new CS first years and transfers, as a SWELL Peer Leader."
+                  />
+                  <ImageEvent
                     date="2022-Research"
-                    text="This year, I'll be doing a research project with a UCSD professor as part of the Early Research Scholars Program."
+                    text="This year, I'll also be doing a research project with UCSD professors as part of the Early Research Scholars Program. 
+                    Our goal is to create a system for inverse rendering, which is reverse engineering one or more pictures/a video to render a 3d scene
+                    that can be interacted with. Although inverse rendering methods exist, we plan to build off the Mitsuba 3 renderer to create a more flexible method."
                   />
                 </Events>
               </Timeline>
