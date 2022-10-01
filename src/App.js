@@ -2,14 +2,14 @@ import React, { Component } from "react";
 import { ParallaxProvider } from "react-scroll-parallax";
 import { Parallax } from "react-scroll-parallax";
 import Me from "./images/me.JPG";
-import { Wave } from "react-animated-text";
+import { Wave, Random, } from "react-animated-text";
 import {
   Timeline,
   Events,
   UrlButton,
   ImageEvent,
   themes,
-  YouTubeEvent
+  YouTubeEvent,
 } from "@merc/react-timeline";
 import staff from "./images/staff.jpg";
 import { Github } from "react-bootstrap-icons";
@@ -43,6 +43,14 @@ class App extends Component {
               </h1>
               <h2>Developer. Team Player. Leader.</h2>
               <h3>Coming soon (hopefully) to a workplace near you.</h3>
+              <h4>
+                <Random
+                  text="Scroll for more!"
+                  effect="jump"
+                  effectDirection = "up"
+                  effectChange=".05"
+                />
+              </h4>
             </div>
           </Parallax>
           <div className="about">
@@ -51,8 +59,8 @@ class App extends Component {
               <h1>
                 Hi. I'm Justin, a student studying Computer Science at
                 University of California, San Diego. I have experience with
-                Java, Python, and Web Development, along with
-                leadership and organizational experience.
+                Java, Python, and Web Development, along with leadership and
+                organizational experience.
               </h1>
             </Parallax>
           </div>
