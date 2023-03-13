@@ -163,8 +163,8 @@ class App extends Component {
                   <ImageEvent
                     date="2022-Research"
                     text="This year, I'll also be doing a research project with UCSD professors as part of the Early Research Scholars Program. 
-                    Our goal is to create a system for inverse rendering, which is reverse engineering one or more pictures/a video to render a 3d scene
-                    that can be interacted with. Although inverse rendering methods exist, we plan to build off the Mitsuba 3 renderer to create a more flexible method."
+                    Our goal is to explore the uses and benefits of physically-based rendering on the problem of inverse rendering-that is, taking 2d inputs like pictures and 
+                    creating a 3d scene."
                   />
                 </Events>
               </Timeline>
