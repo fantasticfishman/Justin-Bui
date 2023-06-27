@@ -58,9 +58,7 @@ class App extends Component {
               <img src={Me} alt="Me"></img>
               <h1>
                 Hi. I'm Justin, a student studying Computer Science at
-                University of California, San Diego. I have experience with
-                Java, Python, and Web Development, along with leadership and
-                organizational experience.
+                University of California, San Diego.
               </h1>
             </Parallax>
           </div>
