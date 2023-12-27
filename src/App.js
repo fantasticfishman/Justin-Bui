@@ -125,7 +125,7 @@ class App extends Component {
                       </UrlButton>
                     </div>
                   </ImageEvent>
-                  <ImageEvent
+                  {/* <ImageEvent
                     date="2022-Projects"
                     text="I created a wallpaper downloader using Python, it takes a search term, pulls HTML elements from wallpaper website page using BeautifulSoup,
                     searches for image links, and batch downloads wallpapers for you. It also has some quality of life usage like controlling search page, creating organized folders for downloads, and avoiding duplicate filenames/directories."
@@ -152,17 +152,24 @@ class App extends Component {
                         Mobile App Repo
                       </UrlButton>
                     </div>
-                  </YouTubeEvent>
+                  </YouTubeEvent> */}
                   <ImageEvent
                     date="2022-Leadership"
-                    text="This year, I'll be planning and conductions socials, presentations, and leadership workshops
+                    text="I planned and conducted socials, presentations, and leadership workshops
                     for the UCSD Computer Science and Engineering Department's student engagement program aimed at new CS first years and transfers, as a SWELL Peer Leader."
                   />
                   <ImageEvent
                     date="2022-Research"
-                    text="This year, I'll also be doing a research project with UCSD professors as part of the Early Research Scholars Program. 
-                    Our goal is to explore the uses and benefits of physically-based rendering on the problem of inverse rendering-that is, taking 2d inputs like pictures and 
-                    creating a 3d scene."
+                    text="I conducted a research project with UCSD professors as part of the Early Research Scholars Program. 
+                    We explored how advances in realistic rendering technology apply to the problem of inverse rendering, taking images and turning them into 3d scenes."
+                  />
+                  <ImageEvent
+                    date="2023-Experience"
+                    text="I worked as an Release Engineer intern for Cubic Transportation Systems, gaining industry experience with DevOps tools like Docker, Jenkins, and Azure Devops, as well as Python scripting and server hosting."
+                  />
+                  <ImageEvent
+                    date="2023-Projects"
+                    text="I was the project leader for a team of 5, where we created a multi-tiered Java application leveraging the ChatGPT/Whisper/DALLE APIs to generate recipes and images for an end user based on spoken user input, with user data being stored in MongoDB."
                   />
                 </Events>
               </Timeline>
