@@ -125,34 +125,6 @@ class App extends Component {
                       </UrlButton>
                     </div>
                   </ImageEvent>
-                  {/* <ImageEvent
-                    date="2022-Projects"
-                    text="I created a wallpaper downloader using Python, it takes a search term, pulls HTML elements from wallpaper website page using BeautifulSoup,
-                    searches for image links, and batch downloads wallpapers for you. It also has some quality of life usage like controlling search page, creating organized folders for downloads, and avoiding duplicate filenames/directories."
-                  >
-                    <div>
-                      <UrlButton
-                        href="https://github.com/fantasticfishman/scraper"
-                        target="_blank"
-                      >
-                        Python Wallpaper Scraper
-                      </UrlButton>
-                    </div>
-                  </ImageEvent>
-                  <YouTubeEvent
-                    date="2022-Projects"
-                    text='I created a mobile app using React Native that helps users keep focused on their tasks by building a "streak" when they complete tasks before the due date. '
-                    id="L7HBrO3VugI"
-                  >
-                    <div>
-                      <UrlButton
-                        href="https://github.com/fantasticfishman/todolist"
-                        target="_blank"
-                      >
-                        Mobile App Repo
-                      </UrlButton>
-                    </div>
-                  </YouTubeEvent> */}
                   <ImageEvent
                     date="2022-Leadership"
                     text="I planned and conducted socials, presentations, and leadership workshops
