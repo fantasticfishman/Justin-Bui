@@ -9,7 +9,6 @@ import {
   UrlButton,
   ImageEvent,
   themes,
-  YouTubeEvent,
 } from "@merc/react-timeline";
 import staff from "./images/staff.jpg";
 import { Github } from "react-bootstrap-icons";
