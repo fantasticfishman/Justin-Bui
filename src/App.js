@@ -115,11 +115,11 @@ class App extends Component {
                     for the UCSD Computer Science and Engineering Department's student engagement program aimed at new CS first years and transfers."
                   />
                   <ImageEvent>
-                    text="I conducted a research project with UCSD professors as part of the Early Research Scholars Program. 
+                    "I conducted a research project with UCSD professors as part of the Early Research Scholars Program. 
                     We explored how advances in realistic rendering technology apply to the problem of inverse rendering, taking images and turning them into 3d scenes."
                     <div>
                       <UrlButton href="https://drive.google.com/file/d/1GGm0_OAGLQtPTFxK_84pzkXXieC4QOt6/view?usp=sharing" target="_blank">
-                        Find our poster here:
+                        Check out our poster!
                       </UrlButton>
                     </div>
                     </ImageEvent>
